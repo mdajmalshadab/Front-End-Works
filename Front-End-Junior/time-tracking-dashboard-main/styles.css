@@ -189,18 +189,18 @@ img {
   #main {
     max-height: 100vh;
     display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-columns: 20% 20% 20% 20%;
     grid-auto-rows: 50px;
     grid-auto-columns: 50px;
-    row-gap: 10.5rem;
+    row-gap: 14rem;
     justify-content: center;
     align-items: center;
-    padding: 17rem 0;
+    padding: 14rem 0 0 0;
   }
 
   /************************************************* Profile Section  ***************************************************/
   .profile-section-parent {
-    min-height: 410px;
+    min-height: 520px;
     grid-row: 1/3;
     grid-column: 1/1;
     margin-top: 30px;
@@ -208,7 +208,7 @@ img {
     margin-right: 0;
   }
   .profile-section-child {
-    height: 70%;
+    height: 67%;
   }
   .menu {
     text-align: left;
@@ -219,35 +219,33 @@ img {
   .profile-img img {
     float: none;
     margin: 20px 10px 10px 10px;
-    width: 60px;
+    width: 70px;
   }
   .names h5 {
-    font-size: 12px;
-    font-weight: 300;
-    margin-bottom: 5px;
+    font-size: 14px;
     margin-left: 10px;
   }
   .names h1 {
-    font-size: 30px;
-    margin-top: 0;
-    font-weight: 300;
+    font-size: 40px;
     margin-left: 10px;
   }
   .profile-section-parent p {
     margin: 0.3rem 0.2rem;
-    top: 10px;
+    top: 30px;
+    font-size: 15px;
   }
 
   /******************************************************* Card Section  ******************************************/
 
   .front-part {
-    height: 170px;
+    padding-top: 40px;
+    height: 215px;
     width: 100%;
     border: none;
   }
 
   .bg-part {
-    height: 200px;
+    height: 250px;
     position: relative;
     width: 90%;
     margin-top: 25px;
@@ -259,17 +257,18 @@ img {
     margin-top: 25px;
     margin-bottom: 0;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 50px;
   }
   p {
     position: absolute;
     font-weight: lighter;
-    font-size: 12px;
+    font-size: 16px;
     color: hsl(236, 100%, 87%);
     left: 20px;
     margin-top: 10px;
   }
   .three-dot {
+    margin-top: 10px;
     width: 7%;
   }
 }
